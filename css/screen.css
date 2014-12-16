@@ -1,0 +1,21 @@
+/*
+
+	File: screen.css
+	Media: screen
+	Copyright: (c) 2014 Bryan Woolbright
+	Author: Bryan Woolbright
+	Notes:
+	Fonts:
+
+
+/* Basic Selectors
+--------------------------------------------------------------------------------------- */
+
+html { background: #353535; }
+body { font: normal 62.5% freight-sans-pro, Arial, Helvetica, sans-serif; color: #888; height:100%; display: table; width: 100%; -webkit-font-smoothing: antialiased; }
+
+div { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 { font-family: freight-sans-pro, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.6em; color: #666; }
+p { font-size:1.8em; line-height:2em; margin:12px 0; }
+p.big_text { font-size: 1.4em;}
