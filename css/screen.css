@@ -12,7 +12,7 @@
 
 * { margin: 0; padding: 0; }
 html {background: #ffffff;}
-body { font: normal 62.5% 'Neuton', Georgia, serif; color: #ffffff; height: 100%; width: 100%; display: table; background-size: cover; transition: .2s ease; }
+body { font: normal 62.5% 'Neuton', Georgia, serif; color: #ffffff; height: 100%; width: 100%; display: table; background-size: cover; transition: .2s ease; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 h1, h2, h3, h4, h5, h6 { font-family: proxima-nova, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.6em; color: #000000; text-transform: uppercase; }
 p { font-size: 1.8em; line-height: 2em; margin: 12px 0; }
@@ -23,7 +23,7 @@ b { font-weight: 700; }
 /* Links
 --------------------------------------------------------------------------------------- */
 
-a { font-weight: bold; text-decoration: none;}
+a { font-weight: 400; text-decoration: none;}
 a:link { color: #ffffff;}
 a:visited { color: #ffffff;}
 a:hover { color: #ffffff;}
@@ -38,7 +38,7 @@ a:active { color: #ffffff;}
 --------------------------------------------------------------------------------------- */
 
 .wrap { width: 100%; }
-header { width: 100%; margin: 0 auto; overflow: hidden; background: rgba(56, 56, 56, 0.9); }
+header { width: 100%; height: 97px; margin: 0 auto; overflow: hidden; background: rgba(56, 56, 56, 0.9); }
 .main { width: 806px; margin: 0 auto; padding: 0;}
 footer { width: 100%; margin: 0; overflow: hidden;  }
 
@@ -46,12 +46,12 @@ footer { width: 100%; margin: 0; overflow: hidden;  }
 /* Header Layout
 --------------------------------------------------------------------------------------- */
 
-header h1 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 3.6em; font-weight: 400; color: #ffffff; float: left; display: inline; }
+header h1 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 3.6em; line-height: 97px; font-weight: 400; color: #ffffff; float: left; display: inline; }
 
 nav { float: right; overflow: hidden; margin-top: 47px; }
-nav a { display: block; float: left; margin-right: 40px; font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; font-weight: 700; color: #ffffff; text-transform: uppercase; }
+nav a { display: block; float: left; margin-right: 40px; font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; font-weight: 700; color: #ffffff; text-transform: uppercase; transition: color .2s ease; }
 nav a:last-of-type { margin-right: 0; }
-nav a:hover { text-decoration: underline; }
+nav a:hover { color: #ffdb34; text-decoration: none; }
 
 .social_media { float: right; }
 
@@ -63,7 +63,9 @@ body.contact { background: url(../images/bg_contact.jpg) no-repeat; background-s
 
 section {}
 section h2 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 6em; font-weight: 400; color: #ffffff; }
-section p { font-size: 3.6em; }
+section h3 { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; }
+section p { font-size: 3.6em; line-height: 1.4em; }
+section p.secondary { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; line-height: 2em; }
 
 /* Footer Layout
 --------------------------------------------------------------------------------------- */
