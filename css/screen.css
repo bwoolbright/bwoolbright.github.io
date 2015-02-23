@@ -58,6 +58,10 @@ nav a:hover { text-decoration: underline; }
 /* Homepage Layout
 --------------------------------------------------------------------------------------- */
 
+body.about { background: url(../images/bg_about.jpg) 0 0 no-repeat; background-size: cover; }
+body.work { background: url(../images/bg_work.jpg) 0 0 no-repeat; background-size: cover; }
+body.contact { background: url(../images/bg_contact.jpg) 0 0 no-repeat; background-size: cover; }
+
 section {}
 section h2 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 6em; font-weight: 400; color: #ffffff; }
 
