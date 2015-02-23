@@ -24,10 +24,10 @@ b { font-weight: 700; }
 --------------------------------------------------------------------------------------- */
 
 a { font-weight: bold; text-decoration: none;}
-a:link { color: #9ba541;}
-a:visited { color: #9ba541;}
-a:hover { color: #9ba541;}
-a:active { color: #9ba541;}
+a:link { color: #ffffff;}
+a:visited { color: #ffffff;}
+a:hover { color: #ffffff;}
+a:active { color: #ffffff;}
 
 /* Buttons
 --------------------------------------------------------------------------------------- */
@@ -63,7 +63,7 @@ body.contact { background: url(../images/bg_contact.jpg) no-repeat; background-s
 
 section {}
 section h2 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 6em; font-weight: 400; color: #ffffff; }
-
+section p { font-size: 3.6em; }
 
 /* Footer Layout
 --------------------------------------------------------------------------------------- */
