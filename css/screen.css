@@ -57,9 +57,9 @@ nav a:hover { color: #ffdb34; text-decoration: none; }
 
 /* Homepage Layout
 --------------------------------------------------------------------------------------- */
-body.about { background: url(../images/bg_about.jpg) no-repeat; background-size: cover; transition: background-size .2s ease; }
-body.work { background: url(../images/bg_work.jpg) no-repeat; background-size: cover; transition: background-size .2s ease; }
-body.contact { background: url(../images/bg_contact.jpg) no-repeat; background-size: cover; transition: background-size .2s ease; }
+body.about { background: url(../images/bg_about.jpg) no-repeat; background-size: cover; background-position: center center; background-attachment: fixed; transition: background-size .2s ease; }
+body.work { background: url(../images/bg_work.jpg) no-repeat; background-size: cover; background-position: center center; background-attachment: fixed; transition: background-size .2s ease; }
+body.contact { background: url(../images/bg_contact.jpg) no-repeat; background-size: cover; background-position: center center; background-attachment: fixed; transition: background-size .2s ease; }
 
 section {}
 section h2 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 6em; font-weight: 400; color: #ffffff; }
