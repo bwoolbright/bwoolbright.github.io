@@ -73,8 +73,10 @@ section h3 { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em;
 section p { font-size: 3.6em; line-height: 1.4em; }
 section p.secondary { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.6em; line-height: 2em; }
 
-.site { float: left; margin-right: 60px; width: 200px; height: 200px; background: #ffffff; }
+.site { float: left; margin-right: 60px; width: 200px; height: 200px; background: #ffffff; -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); }
 .site:nth-of-type(3n) { margin-right: 0; }
+.bottom_row { margin-top: 60px; }
+.bottom_row:after { content: ''; display: table; clear: both; }
 
 /* Footer Layout
 --------------------------------------------------------------------------------------- */
