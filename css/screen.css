@@ -68,7 +68,7 @@ section {}
 section h2 { font-family: 'edoregular', 'Montserrat', sans-serif; font-size: 6em; font-weight: 400; margin-bottom: 48px; color: #ffffff; }
 section h3 { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; font-weight: 700; margin-top: 48px; color: #ffffff; text-transform: uppercase; letter-spacing: 3px; }
 section p { font-size: 3.6em; line-height: 1.4em; }
-section p.secondary { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.8em; line-height: 2em; }
+section p.secondary { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.6em; line-height: 2em; }
 
 /* Footer Layout
 --------------------------------------------------------------------------------------- */
