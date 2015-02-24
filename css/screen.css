@@ -14,7 +14,7 @@
 html { min-height: 100%; height: 100%; }
 body { font: normal 62.5% 'Neuton', Georgia, serif; color: #ffffff; height: 100%; width: 100%; background-size: cover; background-position: center center; background-attachment: fixed; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-h1, h2, h3, h4, h5, h6 { font-family: proxima-nova, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.6em; color: #000000; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1.6em; color: #000000; text-transform: uppercase; }
 p { font-size: 1.8em; line-height: 2em; margin: 12px 0; }
 p.big_text { font-size: 3.6em;}
 
