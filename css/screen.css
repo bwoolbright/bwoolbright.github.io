@@ -74,6 +74,7 @@ section p { font-size: 3.6em; line-height: 1.4em; }
 section p.secondary { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.6em; line-height: 2em; }
 
 .site { float: left; margin-right: 60px; width: 200px; height: 200px; background: #ffffff; }
+.site:nth-of-type(3n) { margin-right: 0; }
 
 /* Footer Layout
 --------------------------------------------------------------------------------------- */
