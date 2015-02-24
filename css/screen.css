@@ -20,6 +20,8 @@ p.big_text { font-size: 3.6em;}
 
 b { font-weight: 700; }
 
+*, *:before, *:after { box-sizing: border-box; }
+
 /* Links
 --------------------------------------------------------------------------------------- */
 
